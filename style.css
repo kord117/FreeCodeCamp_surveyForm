@@ -1,0 +1,26 @@
+body{
+    background-color: darkblue;
+    background-image: url("images/inkpendude-portal-storm.gif");
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    color:whitesmoke;
+    padding-top: 10%;
+    
+}
+
+p,label{
+     white-space: pre;
+}
+
+footer{
+    color: #4FB4D0;
+    margin-top: 5px;
+    float: center;
+
+}
+
+foot,a{
+    color:orange;
+    
+}

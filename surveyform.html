@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game dev survey</h1></title>
+        <link rel="stylesheet" href="style.css">
+    </Head>
+    <body>
+      <h1 id="title">Game dev survey</h1>
+        <p id="description">Thank you for filling out the game dev survey</p>
+
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Name: <input id="name" type="text" required placeholder="aaaaaron"></label>
+                <label id="number-label">Age: <input id="number" type="number" min="10" max="110" required placeholder="52"></label>
+                <label id="email-label">Email: <input id="email" type="email" required  placeholder="gamedev@shipgames.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <p>Your game engine of choice.</p>
+                <select name="Game-engine" id="dropdown">
+                    <option value="">(select one)</option>
+                    <option class="Unity" value="1">Unity </option>
+                    <option class="Unreal" value="2">Unreal</option>
+                    <option value="3">Dogot</option>
+                </select>
+
+                <label>Normal scripting<input type="radio" name="scripting" class="inline" value="1"> </label>
+                <label>Visual scripting<input type="radio" name="scripting" class="inline" value="2"> </label>
+            </fieldset>
+
+            <fieldset>
+                <label>Number of games shipped: <input type="number" min="1"></label>
+                <label>Number of games started and never finished: <input type="number" min="1"></label>
+
+                <p>Game genres</p>
+                <label>Platform <input type="checkbox" class="inline" value="1"></label>
+                <label>Shooter  <input type="checkbox" class="inline" value="2"></label>
+                <label>Fighting  <input type="checkbox" class="inline" value="3"></label>
+                <label>Beat 'em up  <input type="checkbox" class="inline" value="4"></label>
+                <label>Stealth  <input type="checkbox" class="inline" value="5"></label>
+                <label>Survival  <input type="checkbox" class="inline" value="6"></label>
+                <label>Rhythm  <input type="checkbox" class="inline" value="7"></label>
+                <label>Battle Royale  <input type="checkbox" class="inline" value="8"></label>
+            </fieldset>
+
+            <fieldset>
+                <label>Why did you get into game development?
+                    <textarea rows="3" cols="30" placeholder="I like to build stuff when code...."></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Submit" id="submit" >
+        </form>
+    </body>
+    <footer>
+        <p>website designed by <a href="https://github.com/kord117">kord117</a></p>
+        <p>Background art by <a href="https://www.artstation.com/inkpendude">Inkpendude</a></p>
+    </footer>
+</html>
